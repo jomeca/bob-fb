@@ -12,18 +12,16 @@ import plotly.express as px
 
 st.title('Biología del desarrollo')
 st.header("Morfogénesis")
-st.write("Tanto los factores bióticos como físicos, incluida la temperatura y diversas señales moleculares que emanan de patógenos, comensales y organismos específicos, afectan los resultados del desarrollo.")
-st.write("Las decisiones del diseño anatómico se ven fuertemente afectadas por las señales laterales que se originan desde el exterior del genoma cigótico.")
+st.write("Tanto los factores bióticos como físicos, incluida la temperatura y diversas señales moleculares que emanan de patógenos y organismos específicos, configuran los resultados del desarrollo.")
+st.write("Las decisiones del diseño anatómico se ven fuertemente afectadas por las señales originaas desde el exterior del genoma cigótico.")
 st.write("Las vias endógenas dirigidas por estas influencia a menudo muestran efectos transgeneraciones, lo que les permite dar forma a la evolución de las anatomías incluso más rápido que la asimilación trdicional del tipo Baldwin.")
 st.header("Serie de Fibonacci")
 st.write("Se concoe como secuencia de Fibonacci a aquella definida por la relación de recurrencia:")
 st.write(r"""
-        La sucesión de Fibonacci sigue la ecuación de recurrencia lineal homogénea de orden 2
-        $a_{n+2}= a_{n+1}+ a_{n}$
+        La sucesión de Fibonacci sigue la ecuación de recurrencia lineal homogénea de orden 2.$a_{n+2}= a_{n+1}+ a_{n}$
         """)
 st.write("para los dos primeros térmnos de la serie:")
-st.write(r"""
-        $a_{0}=0;   a_{1}= 1$
+st.write(r"""$a_{0}=0;   a_{1}= 1$
         """)
 st.write("Los primeros términos de la serie de Fibonacci serán:")
 
